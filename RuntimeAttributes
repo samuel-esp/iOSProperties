@@ -1,0 +1,8 @@
+//UITextField
+
+placeholderLabel.textColor -> Color = Change the placeholder color
+
+//UIView
+
+layer.cornerRadius -> Number = Change the corner radius of a view
+
