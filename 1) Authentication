@@ -1,0 +1,17 @@
+1) Create 5 ViewControllers: LaunchScreen, SignIn/SignUp, EmailSignIn, SignUp, ResetPassword
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2) Customize LaunchScreen:
+
+-Perform an Automatic Segue
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        Timer.scheduledTimer(withTimeInterval: 4, repeats: false) { (timer) in
+            self.performSegue(withIdentifier: "initialSegue", sender: self)
+            return
+        }
+    }
+    
+ 3) 
