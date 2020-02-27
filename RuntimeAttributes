@@ -1,3 +1,7 @@
+//UITabBarController
+
+tintColor -> Color = Change the icon color to a custom value
+
 //UITextField
 
 placeholderLabel.textColor -> Color = Change the placeholder color
